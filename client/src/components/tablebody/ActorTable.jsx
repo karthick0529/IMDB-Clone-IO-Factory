@@ -38,7 +38,7 @@ function ActorTable({ actor, index, getActors }) {
   }));
 
   const handleDeleteActor = async (id) => {
-    await fetch(`https://imdbclone-backend.onrender.com/cast/delete/${id}`, {
+    await fetch(`https://imdb-clone-io-factory-1-vxsh.onrender.com/cast/delete/${id}`, {
       method: "DELETE",
       headers: { "Content-Type": "application/json" },
     })

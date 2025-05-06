@@ -37,7 +37,7 @@ function Signup() {
   });
 
   const createUser = async (values) => {
-    await fetch('https://imdbclone-backend.onrender.com/user/signup', {
+    await fetch('https://imdb-clone-io-factory-1-vxsh.onrender.com/user/signup', {
       method: "POST",
       body: JSON.stringify(values),
       headers: { "Content-Type": "application/json" },

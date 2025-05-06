@@ -45,7 +45,7 @@ function EditProducerModal({
   });
 
   const editProducer = async (values) => {
-    await fetch(`https://imdbclone-backend.onrender.com/cast/edit/${producer._id}`, {
+    await fetch(`https://imdb-clone-io-factory-1-vxsh.onrender.com/cast/edit/${producer._id}`, {
       method: "PUT",
       body: JSON.stringify({
         ...values,

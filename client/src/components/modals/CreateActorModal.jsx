@@ -44,7 +44,7 @@ function CreateActorModal({
   });
 
   const createActor = async (values) => {
-    await fetch('https://imdbclone-backend.onrender.com/cast/create', {
+    await fetch('https://imdb-clone-io-factory-1-vxsh.onrender.com/cast/create', {
       method: "POST",
       body: JSON.stringify({
         ...values,

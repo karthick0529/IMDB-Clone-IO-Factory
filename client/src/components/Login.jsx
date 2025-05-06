@@ -33,7 +33,7 @@ function Login() {
   });
 
   const loginUser = async (values) => {
-    await fetch('https://imdbclone-backend.onrender.com/user/login', {
+    await fetch('https://imdb-clone-io-factory-1-vxsh.onrender.com/user/login', {
       method: "POST",
       body: JSON.stringify(values),
       headers: {

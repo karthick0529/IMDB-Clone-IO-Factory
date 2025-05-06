@@ -96,7 +96,7 @@ function CreateMovieModal({
   });
 
   const createMovie = async (values) => {
-    await fetch('https://imdbclone-backend.onrender.com/movie/create', {
+    await fetch('https://imdb-clone-io-factory-1-vxsh.onrender.com/movie/create', {
       method: "POST",
       body: JSON.stringify(values),
       headers: { "Content-Type": "application/json" },

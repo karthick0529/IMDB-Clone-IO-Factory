@@ -27,7 +27,7 @@ function Producers() {
 
   const getProducers = async () => {
     const res = await fetch(
-      'https://imdbclone-backend.onrender.com/cast/producers',
+      'https://imdb-clone-io-factory-1-vxsh.onrender.com/cast/producers',
       {
         method: "GET",
         headers: {

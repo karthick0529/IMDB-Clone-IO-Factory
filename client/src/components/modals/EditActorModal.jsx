@@ -45,7 +45,7 @@ function EditActorModal({
   });
 
   const editActor = async (values) => {
-    await fetch(`https://imdbclone-backend.onrender.com/cast/edit/${actor._id}`, {
+    await fetch(`https://imdb-clone-io-factory-1-vxsh.onrender.com/cast/edit/${actor._id}`, {
       method: "PUT",
       body: JSON.stringify({
         ...values,

@@ -35,7 +35,7 @@ function Actors() {
   }));
 
   const getActors = async () => {
-    const res = await fetch('https://imdbclone-backend.onrender.com/cast/actors', {
+    const res = await fetch('https://imdb-clone-io-factory-1-vxsh.onrender.com/cast/actors', {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

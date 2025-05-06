@@ -19,7 +19,7 @@ function MovieCard({
   const handleEditMovieModalClose = () => setShowEditMovieModal(false);
 
   const handleDeleteMovie = async (id) => {
-    await fetch(`https://imdbclone-backend.onrender.com/movie/delete/${id}`, {
+    await fetch(`https://imdb-clone-io-factory-1-vxsh.onrender.com/movie/delete/${id}`, {
       method: "DELETE",
       headers: { "Content-Type": "application/json" },
     })

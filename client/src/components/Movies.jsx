@@ -16,7 +16,7 @@ function Movies() {
   const handleCreateMovieModalClose = () => setShowCreateMovieModal(false);
 
   const getMovies = async () => {
-    const res = await fetch('https://imdbclone-backend.onrender.com/movie/all', {
+    const res = await fetch('https://imdb-clone-io-factory-1-vxsh.onrender.com/movie/all', {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -32,7 +32,7 @@ function Movies() {
   };
 
   const getActors = async () => {
-    const res = await fetch('https://imdbclone-backend.onrender.com/cast/actors', {
+    const res = await fetch('https://imdb-clone-io-factory-1-vxsh.onrender.com/cast/actors', {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -48,7 +48,7 @@ function Movies() {
 
   const getProducers = async () => {
     const res = await fetch(
-      'https://imdbclone-backend.onrender.com/cast/producers',
+      'https://imdb-clone-io-factory-1-vxsh.onrender.com/cast/producers',
       {
         method: "GET",
         headers: {

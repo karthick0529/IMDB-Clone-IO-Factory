@@ -96,7 +96,7 @@ function EditMovieModal({
   });
 
   const editMovie = async (values) => {
-    await fetch(`https://imdbclone-backend.onrender.com/movie/edit/${movie._id}`, {
+    await fetch(`https://imdb-clone-io-factory-1-vxsh.onrender.com/movie/edit/${movie._id}`, {
       method: "PUT",
       body: JSON.stringify(values),
       headers: { "Content-Type": "application/json" },
