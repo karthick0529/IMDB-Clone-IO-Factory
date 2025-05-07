@@ -35,8 +35,6 @@ User Credentials
 
 # Deployment Link - 
 
-GitHub Link - https://github.com/karthick0529/IMDB-Clone-IO-Factory
-
 Netlify Link - https://astonishing-fudge-179cad.netlify.app/
 
 Render Link - https://imdb-clone-io-factory-1-vxsh.onrender.com
